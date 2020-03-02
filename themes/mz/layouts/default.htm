@@ -1,0 +1,37 @@
+description = "Default for pages"
+
+[staticPage]
+useContent = 1
+default = 1
+
+[staticBreadcrumbs]
+
+[localePicker]
+forceUrl = 0
+==
+<!DOCTYPE html>
+<html>
+<head>
+{% partial 'site/head-default' %}
+</head>
+<body>
+    <header id="layout-header">
+        {% partial 'content/nav' %}
+        {% partial 'content/header' %}
+    </header>
+    <section id="layout-content">        
+            
+        {% page %}
+
+        {variable name="headersize" label="Header Size" tab="Header" type="text"}{/variable}
+        {variable name="headerposition" label="Header Position" tab="Header" type="text"}{/variable}
+        {variable name="header" label="Header" tab="Header" type="mediafinder" mode="image"}{/variable}
+
+    </section>
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+{% partial 'site/scripts' %}
+{% scripts %}
+</body>
+</html>

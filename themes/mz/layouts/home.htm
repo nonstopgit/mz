@@ -1,0 +1,31 @@
+[staticPage]
+useContent = 1
+default = 0
+
+[localePicker]
+forceUrl = 1
+==
+<!DOCTYPE html>
+<html>
+<head>
+{% partial 'site/head-default' %}
+</head>
+<body>
+    {repeater name="slider" label="Slider" prompt="Add another content section" tab="Slider"}
+        {variable name="slidercaption" label="Slider Caption" type="richeditor" size="small"}{/variable}
+        {variable name="slide" label="Image" type="mediafinder" mode="image"}{/variable}
+    {/repeater}
+    <header id="layout-header">
+        {% partial 'content/nav' %}
+        {% partial 'content/slider' %}
+    </header>
+    <section id="layout-content">
+        {% component 'staticPage' %}
+    </section>
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+{% partial 'site/scripts' %}
+{% scripts %}
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% if header %}
+    {% set headerImage = header|media %}
+{% elseif pageheader.image.path %}
+    {% set headerImage = pageheader.image.path %}
+{% else %}
+    {% set headerImage = "/storage/app/media/content/header/about-us.jpg" %}
+{% endif %}
+<div class="title headerimage{{ headersize }} {{ headerposition }}" style="background-image: url('{{ headerImage }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col caption">                
+                <h1>{{ this.page.title }}</h1>
+            </div>
+        </div>
+    </div>
+</div>

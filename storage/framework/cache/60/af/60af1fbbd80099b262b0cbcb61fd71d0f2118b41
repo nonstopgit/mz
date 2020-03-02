@@ -1,0 +1,54 @@
+1582030995a:1:{s:8:"home.htm";a:7:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:832:"[staticPage]
+useContent = 1
+default = 0
+
+[localePicker]
+forceUrl = 1
+==
+<!DOCTYPE html>
+<html>
+<head>
+{% partial 'site/head-default' %}
+</head>
+<body>
+    {repeater name="slider" label="Slider" prompt="Add another content section" tab="Slider"}
+        {variable name="slidercaption" label="Slider Caption" type="richeditor" size="small"}{/variable}
+        {variable name="slide" label="Image" type="mediafinder" mode="image"}{/variable}
+    {/repeater}
+    <header id="layout-header">
+        {% partial 'content/nav' %}
+        {% partial 'content/slider' %}
+    </header>
+    <section id="layout-content">
+        {% component 'staticPage' %}
+    </section>
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+{% partial 'site/scripts' %}
+{% scripts %}
+</body>
+</html>";s:5:"mtime";i:1575276529;s:6:"markup";s:753:"<!DOCTYPE html>
+<html>
+<head>
+{% partial 'site/head-default' %}
+</head>
+<body>
+    {repeater name="slider" label="Slider" prompt="Add another content section" tab="Slider"}
+        {variable name="slidercaption" label="Slider Caption" type="richeditor" size="small"}{/variable}
+        {variable name="slide" label="Image" type="mediafinder" mode="image"}{/variable}
+    {/repeater}
+    <header id="layout-header">
+        {% partial 'content/nav' %}
+        {% partial 'content/slider' %}
+    </header>
+    <section id="layout-content">
+        {% component 'staticPage' %}
+    </section>
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+{% partial 'site/scripts' %}
+{% scripts %}
+</body>
+</html>";s:4:"code";N;s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"1";}}}
