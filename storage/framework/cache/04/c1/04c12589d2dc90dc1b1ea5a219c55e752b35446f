@@ -1,0 +1,243 @@
+1583138090a:1:{s:13:"selekcije.htm";a:7:{s:8:"fileName";s:13:"selekcije.htm";s:7:"content";s:2948:"[viewBag]
+title = "Ponudba"
+url = "/ponudba"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+header = "/header/ponudba.jpg"
+==
+<figure>
+	<div class="container">
+		<div class="row justify-content-end">
+			<div class="col-9">
+
+				<p class="standout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/stavbno-pohistvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Stavbno pohištvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<ul>
+							<li>tipska europrofil okna vseh oblik</li>
+							<li>vhodna vrata, notranja vrata</li>
+							<li>pregradne stene, vetrolovi</li>
+							<li>škatlasta okna, replike starih oken in vrat</li>
+						</ul>
+
+						<p>Po naročilu vam izdelamo vse vrste oken in vrat, drsnih in zgibnih sten, predvsem pa smo izredno specializirani za izdelavo replik starih oken in vrat, smo zelo prilagodljivi vašim željam.</p>
+					</div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/masivno-pohistvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Masivno pohištvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<p>Izdelamo vam vse vrste pohištva iz masivnega lesa.</p>
+
+						<p>Kuhinje, vinoteke, sobo za prijatelje, opremo vinskih kleti, vitrine, kredence, omare, postelje, mize,...</p>
+
+						<p>Obvladamo umetno staranje, vse vrste olj, les obdelamo na koncu ročno, tako da mu damo mehko obliko - krtačenje</p>
+					</div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/spomenisko-varstvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Spomeniško varstvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<h3>Okna in vrata
+							<br>za spomeniško zaščitene objekte</h3>
+
+						<ul>
+							<li>izdelava replik oken in vrat vseh vrst in oblik</li>
+							<li>sodelovanje z ZVKD</li>
+							<li>restavriranje in obnova starih oken in vrat ter masivnega pohištva</li>
+						</ul>
+
+						<p>Na osnovi obstoječega stanja vam izdelamo repliko vaših oken in vrat, vgradimo lahko tudi izolacijsko ali celo protihrupno – varnostno steklo. Okna in vrata izdelamo glede na strokovno mnenje ZVKD in podanih smernic. Vaše staro pohištvo tudi obnovimo, če ugotovimo, da je to smiselno.</p>
+					</div></div></div></div></div>
+</figure>";s:5:"mtime";i:1575296334;s:6:"markup";s:2814:"<figure>
+	<div class="container">
+		<div class="row justify-content-end">
+			<div class="col-9">
+
+				<p class="standout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/stavbno-pohistvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Stavbno pohištvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<ul>
+							<li>tipska europrofil okna vseh oblik</li>
+							<li>vhodna vrata, notranja vrata</li>
+							<li>pregradne stene, vetrolovi</li>
+							<li>škatlasta okna, replike starih oken in vrat</li>
+						</ul>
+
+						<p>Po naročilu vam izdelamo vse vrste oken in vrat, drsnih in zgibnih sten, predvsem pa smo izredno specializirani za izdelavo replik starih oken in vrat, smo zelo prilagodljivi vašim željam.</p>
+					</div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/masivno-pohistvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Masivno pohištvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<p>Izdelamo vam vse vrste pohištva iz masivnega lesa.</p>
+
+						<p>Kuhinje, vinoteke, sobo za prijatelje, opremo vinskih kleti, vitrine, kredence, omare, postelje, mize,...</p>
+
+						<p>Obvladamo umetno staranje, vse vrste olj, les obdelamo na koncu ročno, tako da mu damo mehko obliko - krtačenje</p>
+					</div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/spomenisko-varstvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Spomeniško varstvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<h3>Okna in vrata
+							<br>za spomeniško zaščitene objekte</h3>
+
+						<ul>
+							<li>izdelava replik oken in vrat vseh vrst in oblik</li>
+							<li>sodelovanje z ZVKD</li>
+							<li>restavriranje in obnova starih oken in vrat ter masivnega pohištva</li>
+						</ul>
+
+						<p>Na osnovi obstoječega stanja vam izdelamo repliko vaših oken in vrat, vgradimo lahko tudi izolacijsko ali celo protihrupno – varnostno steklo. Okna in vrata izdelamo glede na strokovno mnenje ZVKD in podanih smernic. Vaše staro pohištvo tudi obnovimo, če ugotovimo, da je to smiselno.</p>
+					</div></div></div></div></div>
+</figure>";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:7:"Ponudba";s:3:"url";s:8:"/ponudba";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:6:"header";s:19:"/header/ponudba.jpg";}s:12:"parsedMarkup";s:2814:"<figure>
+	<div class="container">
+		<div class="row justify-content-end">
+			<div class="col-9">
+
+				<p class="standout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/stavbno-pohistvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Stavbno pohištvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<ul>
+							<li>tipska europrofil okna vseh oblik</li>
+							<li>vhodna vrata, notranja vrata</li>
+							<li>pregradne stene, vetrolovi</li>
+							<li>škatlasta okna, replike starih oken in vrat</li>
+						</ul>
+
+						<p>Po naročilu vam izdelamo vse vrste oken in vrat, drsnih in zgibnih sten, predvsem pa smo izredno specializirani za izdelavo replik starih oken in vrat, smo zelo prilagodljivi vašim željam.</p>
+					</div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/masivno-pohistvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Masivno pohištvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<p>Izdelamo vam vse vrste pohištva iz masivnega lesa.</p>
+
+						<p>Kuhinje, vinoteke, sobo za prijatelje, opremo vinskih kleti, vitrine, kredence, omare, postelje, mize,...</p>
+
+						<p>Obvladamo umetno staranje, vse vrste olj, les obdelamo na koncu ročno, tako da mu damo mehko obliko - krtačenje</p>
+					</div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="feature">
+			<div class="image" style="background-image: url('/storage/app/media/content/spomenisko-varstvo.jpg');">
+				<br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+
+						<h2>Spomeniško varstvo</h2>
+					</div>
+					<div class="col-6 text">
+
+						<h3>Okna in vrata
+							<br>za spomeniško zaščitene objekte</h3>
+
+						<ul>
+							<li>izdelava replik oken in vrat vseh vrst in oblik</li>
+							<li>sodelovanje z ZVKD</li>
+							<li>restavriranje in obnova starih oken in vrat ter masivnega pohištva</li>
+						</ul>
+
+						<p>Na osnovi obstoječega stanja vam izdelamo repliko vaših oken in vrat, vgradimo lahko tudi izolacijsko ali celo protihrupno – varnostno steklo. Okna in vrata izdelamo glede na strokovno mnenje ZVKD in podanih smernic. Vaše staro pohištvo tudi obnovimo, če ugotovimo, da je to smiselno.</p>
+					</div></div></div></div></div>
+</figure>";}}
