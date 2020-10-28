@@ -1,3 +1,5 @@
+[viewBag]
+==
 <div class="slider">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -7,27 +9,34 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>#}
         <div class="carousel-inner" role="listbox">
-            <!-- Slide One - Set the background image for this slide in the line below -->
+            {% for slides in slider %}
+            <div class="carousel-item{% if loop.first %} active{% endif %}" style="background-image: url('{{ slides.slide_image|media }}')">
+                <div class="container carousel-caption d-none d-md-block">
+                    {#<a href="{{ slides.slide_url }}"{% if slides.slide_urlext %} target="_blank"{% endif %}>#}
+                        <h2 class="display-4 text-left">{{ slides.slide_title|raw }}</h2>
+                        {#<p class="lead">{{ slides.slide_text }}</p>#}
+                    {#</a>#}
+                </div>
+            </div>
+        {% endfor %}
+            {#<!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url('/storage/app/media/slider/mizarstvo-joze-zupancic-01.jpg')">
                 <div class="container carousel-caption d-none d-md-block text-left">
                     <h2 class="display-4">Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno</h2>
-                    {#<p class="lead"></p>#}
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('/storage/app/media/slider/mizarstvo-joze-zupancic-02.jpg')">
                 <div class="container carousel-caption d-none d-md-block text-left">
                     <h2 class="display-4">Ohranjamo<br>slovensko kulturno dediščino<br>nedotaknjeno</h2>
-                    {#<p class="lead"></p>#}
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('/storage/app/media/slider/mizarstvo-joze-zupancic-03.jpg')">
                 <div class="container carousel-caption d-none d-md-block text-left">
                     <h2 class="display-4">Ohranjamo<br>slovensko kulturno dediščino<br>nedotaknjeno</h2>
-                    {#<p class="lead"></p>#}
                 </div>
-            </div>
+            </div>#}
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -364,7 +364,9 @@ class FileDatasource extends Datasource implements DatasourceInterface
     public function getAvailablePaths()
     {
         $pathsCache = [];
-        $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this->basePath));
+        $it = (is_dir($this->basePath))
+            ? new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this->basePath))
+            : [];
 
         foreach ($it as $file) {
             if ($file->isDir()) {
@@ -379,7 +381,9 @@ class FileDatasource extends Datasource implements DatasourceInterface
         }
 
         // Format array in the form of ['path/to/file' => true];
-        $pathsCache = array_map(function () { return true; }, array_flip($pathsCache));
+        $pathsCache = array_map(function () {
+            return true;
+        }, array_flip($pathsCache));
 
         return $pathsCache;
     }

@@ -6,10 +6,14 @@ code = "menu"
 <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-toggleable-sm" data-toggle="affix">
     <div class="container">
         <a class="navbar-brand" href="/{{ activeLocale }}"><img src="/storage/app/media/logo-mizarstvo-zupancic.png" class="logo" id="brandlogo" alt="Mizarstvo Jože Zupančič s.p."></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        {#<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        </button>#}
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!--span class="navbar-toggler-icon"></span-->
+            <div class="animated-icon"><span></span><span></span><span></span></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 {% for item in menuItems if not item.viewBag.isHidden%}
                     <li class="nav-item{% if item.items %} dropdown{% endif %}{% if item.isActive or item.isChildActive %} active{% endif %}">
