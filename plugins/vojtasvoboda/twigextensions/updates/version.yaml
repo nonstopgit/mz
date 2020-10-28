@@ -23,3 +23,5 @@
 1.2.3: Added an optional css class parameter to mailto function
 1.2.4: Add sk_SK locale, thanks to Marek Závacký
 1.2.5: Add env() helper function, thanks to Marek Závacký
+1.2.6: Fix ucfirst, thanks to Aurélien Roy
+1.2.7: Add slovenian locale, thanks to Marko Kodrič

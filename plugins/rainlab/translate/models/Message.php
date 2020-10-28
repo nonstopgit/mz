@@ -61,6 +61,11 @@ class Message extends Model
             $locale = self::DEFAULT_LOCALE;
         }
 
+        if (!array_key_exists($locale, $this->message_data)) {
+            // search parent locale (e.g. en-US -> en) before returning default
+            list($locale) = explode('-', $locale);
+        }
+
         if (array_key_exists($locale, $this->message_data)) {
             return $this->message_data[$locale];
         }
@@ -94,11 +99,13 @@ class Message extends Model
     /**
      * Creates or finds an untranslated message string.
      * @param  string $messageId
+     * @param  string $locale
      * @return string
      */
-    public static function get($messageId)
+    public static function get($messageId, $locale = null)
     {
-        if (!self::$locale) {
+        $locale = $locale ?: self::$locale;
+        if (!$locale) {
             return $messageId;
         }
 
@@ -107,8 +114,8 @@ class Message extends Model
         /*
          * Found in cache
          */
-        if (array_key_exists(self::$locale . $messageCode, self::$cache)) {
-            return self::$cache[self::$locale . $messageCode];
+        if (array_key_exists($locale . $messageCode, self::$cache)) {
+            return self::$cache[$locale . $messageCode];
         }
 
         /*
@@ -130,8 +137,8 @@ class Message extends Model
         /*
          * Schedule new cache and go
          */
-        $msg = $item->forLocale(self::$locale, $messageId);
-        self::$cache[self::$locale . $messageCode] = $msg;
+        $msg = $item->forLocale($locale, $messageId);
+        self::$cache[$locale . $messageCode] = $msg;
         self::$hasNew = true;
 
         return $msg;
@@ -160,6 +167,8 @@ class Message extends Model
             $locale = static::DEFAULT_LOCALE;
         }
 
+        $existingIds = [];
+
         foreach ($messages as $code => $message) {
             // Ignore empties
             if (!strlen(trim($message))) {
@@ -179,27 +188,54 @@ class Message extends Model
 
             $messageData = $item->exists || $item->message_data ? $item->message_data : [];
 
-            // Do not overwrite existing translations
+            // Do not overwrite existing translations.
             if (isset($messageData[$locale])) {
+                $existingIds[] = $item->id;
                 continue;
             }
 
             $messageData[$locale] = $message;
 
             $item->message_data = $messageData;
+            $item->found = true;
+
             $item->save();
         }
+
+        // Set all messages found by the scanner as found
+        self::whereIn('id', $existingIds)->update(['found' => true]);
     }
 
     /**
      * Looks up and translates a message by its string.
      * @param  string $messageId
      * @param  array  $params
+     * @param  string $locale
      * @return string
      */
-    public static function trans($messageId, $params = [])
+    public static function trans($messageId, $params = [], $locale = null)
     {
-        $msg = static::get($messageId);
+        $msg = static::get($messageId, $locale);
+
+        $params = array_build($params, function($key, $value){
+            return [':'.$key, e($value)];
+        });
+
+        $msg = strtr($msg, $params);
+
+        return $msg;
+    }
+
+    /**
+     * Looks up and translates a message by its string WITHOUT escaping params.
+     * @param  string $messageId
+     * @param  array  $params
+     * @param  string $locale
+     * @return string
+     */
+    public static function transRaw($messageId, $params = [], $locale = null)
+    {
+        $msg = static::get($messageId, $locale);
 
         $params = array_build($params, function($key, $value){
             return [':'.$key, $value];

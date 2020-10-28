@@ -12,8 +12,12 @@ forceUrl = 1
 </head>
 <body>
     {repeater name="slider" label="Slider" prompt="Add another content section" tab="Slider"}
-        {variable name="slidercaption" label="Slider Caption" type="richeditor" size="small"}{/variable}
-        {variable name="slide" label="Image" type="mediafinder" mode="image"}{/variable}
+        {#variable name="slidercaption" label="Slide Caption" type="richeditor" size="small"}{/variable#}
+        {variable type="text" name="slide_title" label="Title"}{/variable}
+        {variable type="textarea" name="slide_text" label="Text" size="small"}{/variable}
+        {variable type="text" name="slide_url" label="URL"}{/variable}
+        {variable type="checkbox" name="slide_urlext" label="Is URL external"}{/variable}
+        {variable name="slide_image" label="Image" type="mediafinder" mode="image"}{/variable}
     {/repeater}
     <header id="layout-header">
         {% partial 'content/nav' %}

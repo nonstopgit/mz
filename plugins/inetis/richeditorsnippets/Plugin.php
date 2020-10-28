@@ -1,6 +1,7 @@
 <?php namespace Inetis\RicheditorSnippets;
 
 use Event;
+use Input;
 use System\Classes\PluginBase;
 use Backend\FormWidgets\RichEditor;
 use Backend\Classes\Controller;
@@ -58,18 +59,27 @@ class Plugin extends PluginBase
 
         RichEditor::extend(function($widget) {
             // Adds default CSS/JS for snippets from Rainlab Pages Plugin
-            $widget->addCss('/plugins/rainlab/pages/assets/css/pages.css');
-            $widget->addJs('/plugins/rainlab/pages/assets/js/pages-page.js');
-            $widget->addJs('/plugins/rainlab/pages/assets/js/pages-snippets.js');
+            $widget->addCss('/plugins/rainlab/pages/assets/css/pages.css', 'RainLab.Pages');
+            $widget->addJs('/plugins/rainlab/pages/assets/js/pages-page.js', 'RainLab.Pages');
+            $widget->addJs('/plugins/rainlab/pages/assets/js/pages-snippets.js', 'RainLab.Pages');
 
             // Adds custom javascript
             $widget->addJs('/inetis/snippets/list');
-            $widget->addJs('/plugins/inetis/richeditorsnippets/assets/js/froala.snippets.plugin.js');
+            $widget->addJs('/plugins/inetis/richeditorsnippets/assets/js/froala.snippets.plugin.js', 'Inetis.RicheditorSnippets');
         });
 
         // Register components from cache for AJAX handlers
         Event::listen('cms.page.initComponents', function($controller, $page) {
-            SnippetLoader::restoreComponentSnippetsFromCache($controller, $page);
+            if (Input::ajax()) {
+                SnippetLoader::restoreComponentSnippetsFromCache($controller);
+            }
+        });
+
+        // Save the snippets loaded in this page for use inside subsequent AJAX calls
+        Event::listen('cms.page.postprocess', function() {
+            if (!Input::ajax()) {
+                SnippetLoader::saveCachedSnippets();
+            }
         });
     }
 
@@ -77,8 +87,8 @@ class Plugin extends PluginBase
     {
         return [
             'filters' => [
-                'parseSnippets' => function($html) {
-                    return SnippetParser::parse($html);
+                'parseSnippets' => function($html, $params = []) {
+                    return SnippetParser::parse($html, $params);
                 }
             ]
         ];

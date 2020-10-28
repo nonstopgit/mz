@@ -1,5 +1,7 @@
 $(function(){
-
+    $('.navbar-toggler').on('click', function () {
+        $('.animated-icon').toggleClass('open');
+    });
     // nav shrink
     $(window).scroll(function(){
         var aTop = $('.navbar').height();

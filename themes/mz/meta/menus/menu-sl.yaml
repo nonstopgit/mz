@@ -1,34 +1,46 @@
 items:
     -
-        title: Domov
-        nesting: '0'
+        title: Pozdravljeni
+        nesting: 0
         type: static-page
         code: ''
         reference: domov
-        replace: '0'
+        replace: 0
         viewBag:
+            locale:
+                en:
+                    title: ''
+                    url: ''
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Ponudba
-        nesting: '0'
+        nesting: 0
         type: static-page
         code: ''
-        reference: selekcije
-        replace: '0'
+        reference: ponudba
+        replace: 0
         viewBag:
+            locale:
+                en:
+                    title: ''
+                    url: ''
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Kontakt
-        nesting: '0'
+        nesting: 0
         type: static-page
         code: ''
-        reference: o-klubu
-        replace: '0'
+        reference: kontakt
+        replace: 0
         viewBag:
+            locale:
+                en:
+                    title: ''
+                    url: ''
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
