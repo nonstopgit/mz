@@ -356,6 +356,7 @@ textarea {
     font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px 8px #000;
+    width: 90%;
     /*text-align: right;*/
 }
 .feature .text {
@@ -365,10 +366,11 @@ textarea {
 @media (max-width: 991px) {
     .feature h2 {
         font-size: 2.4em;
-        line-height: 1.8em;
+        line-height: normal;
         font-weight: bold;
         color: #fff;
         text-shadow: 1px 1px 8px #000;
+        width: 90%;
         /*text-align: right;*/
     }
 }
