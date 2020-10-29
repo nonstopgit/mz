@@ -158,9 +158,9 @@ footer {
     color: #866e2e;
     padding: 1em 0 2em 0;
 }
-footer .logo {
+/*footer .logo {
     width: 160px;
-}
+}*/
 footer .social a {
     font-size:3em;
     margin: 0 .25em 0 .25em;
@@ -352,7 +352,7 @@ textarea {
 }
 .feature h2, .offer h2 {
     font-size: 3em;
-    line-height: 2em;
+    line-height: normal;
     font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px 8px #000;
@@ -408,7 +408,15 @@ p.standout {
     line-height: normal;
     padding: 1em 0;
 }
-
+@media (max-width: 991px) {
+    p.standout {
+        font-size: 2em;
+        color: #866e2e;
+        font-weight: bold;
+        line-height: normal;
+        padding: 1em 0;
+    }
+}
 .reference ul {
     list-style-type: disc; 
     list-style-position: inside; 
