@@ -1,0 +1,62 @@
+1603968675a:1:{s:11:"default.htm";a:9:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:893:"description = "Default for pages"
+
+[staticPage]
+useContent = 1
+default = 1
+
+[staticBreadcrumbs]
+
+[localePicker]
+forceUrl = 0
+==
+<!DOCTYPE html>
+<html>
+<head>
+{% partial 'site/head-default' %}
+</head>
+<body>
+    <header id="layout-header">
+        {% partial 'content/nav' %}
+        {% partial 'content/header' %}
+    </header>
+    <section id="layout-content">        
+            
+        {% page %}
+
+        {variable name="headersize" label="Header Size" tab="Header" type="text"}{/variable}
+        {variable name="headerposition" label="Header Position" tab="Header" type="text"}{/variable}
+        {variable name="header" label="Header" tab="Header" type="mediafinder" mode="image"}{/variable}
+
+    </section>
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+{% partial 'site/scripts' %}
+{% scripts %}
+</body>
+</html>";s:5:"mtime";i:1575282020;s:6:"markup";s:754:"<!DOCTYPE html>
+<html>
+<head>
+{% partial 'site/head-default' %}
+</head>
+<body>
+    <header id="layout-header">
+        {% partial 'content/nav' %}
+        {% partial 'content/header' %}
+    </header>
+    <section id="layout-content">        
+            
+        {% page %}
+
+        {variable name="headersize" label="Header Size" tab="Header" type="text"}{/variable}
+        {variable name="headerposition" label="Header Position" tab="Header" type="text"}{/variable}
+        {variable name="header" label="Header" tab="Header" type="mediafinder" mode="image"}{/variable}
+
+    </section>
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+{% partial 'site/scripts' %}
+{% scripts %}
+</body>
+</html>";s:4:"code";N;s:11:"description";s:17:"Default for pages";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"1";}s:17:"staticBreadcrumbs";a:0:{}s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

@@ -1,0 +1,7 @@
+1604307547a:1:{s:19:"macros/ellipsis.htm";a:6:{s:8:"fileName";s:19:"macros/ellipsis.htm";s:7:"content";s:184:"[viewBag]
+==
+{% macro ellipsis(text) %}
+    {{ text|striptags|length > 250 ? text|striptags|slice(0, 250)|split(' ')|slice(0, -1)|join(' ') ~ '…' : text|striptags }}
+{% endmacro %}";s:5:"mtime";i:1574179807;s:6:"markup";s:171:"{% macro ellipsis(text) %}
+    {{ text|striptags|length > 250 ? text|striptags|slice(0, 250)|split(' ')|slice(0, -1)|join(' ') ~ '…' : text|striptags }}
+{% endmacro %}";s:4:"code";N;s:7:"viewBag";a:0:{}}}

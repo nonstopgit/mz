@@ -1,0 +1,48 @@
+1604307549a:1:{s:12:"menu-sl.yaml";a:7:{s:8:"fileName";s:12:"menu-sl.yaml";s:7:"content";s:1017:"items:
+    -
+        title: Pozdravljeni
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: domov
+        replace: 0
+        viewBag:
+            locale:
+                en:
+                    title: ''
+                    url: ''
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Ponudba
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: ponudba
+        replace: 0
+        viewBag:
+            locale:
+                en:
+                    title: ''
+                    url: ''
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Kontakt
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: kontakt
+        replace: 0
+        viewBag:
+            locale:
+                en:
+                    title: ''
+                    url: ''
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: menu-sl
+";s:5:"mtime";i:1603805599;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

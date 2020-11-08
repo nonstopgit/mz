@@ -1,0 +1,114 @@
+1604307530a:1:{s:11:"kontakt.htm";a:7:{s:8:"fileName";s:11:"kontakt.htm";s:7:"content";s:953:"[viewBag]
+title = "Kontakt"
+url = "/kontakt"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+header = "/header/kontakt.jpg"
+==
+<figure>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col text-left">
+
+					<h2>Mizarstvo</h2>
+
+					<h3>Jože Zupančič s.p.</h3>
+				</div></div>
+			<div class="row">
+				<div class="col-md-6 text-left">
+
+					<p>Sevno 12A
+						<br>8000 Novo mesto
+						<br>Slovenija</p>
+
+					<p>
+						<br>
+					</p>
+
+					<h3>GSM: 041 682 512</h3>
+
+					<p>
+						<br>
+					</p>
+				</div>
+				<div class="col-md-6 text-left">
+
+					<p>Davčna številka: <strong>SI61077372</strong>
+						<br>Matična številka: <strong>5361413000</strong></p>
+
+					<p>TRR: <strong>IBAN SI56 0468 3011 4408 432</strong> - NOVA KBM d.d.</p>
+				</div></div></div></div>
+</figure>
+<figure data-inspector-id="inspectorid-706947173553" data-snippet="gmap">&nbsp;</figure>";s:5:"mtime";i:1603805648;s:6:"markup";s:819:"<figure>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col text-left">
+
+					<h2>Mizarstvo</h2>
+
+					<h3>Jože Zupančič s.p.</h3>
+				</div></div>
+			<div class="row">
+				<div class="col-md-6 text-left">
+
+					<p>Sevno 12A
+						<br>8000 Novo mesto
+						<br>Slovenija</p>
+
+					<p>
+						<br>
+					</p>
+
+					<h3>GSM: 041 682 512</h3>
+
+					<p>
+						<br>
+					</p>
+				</div>
+				<div class="col-md-6 text-left">
+
+					<p>Davčna številka: <strong>SI61077372</strong>
+						<br>Matična številka: <strong>5361413000</strong></p>
+
+					<p>TRR: <strong>IBAN SI56 0468 3011 4408 432</strong> - NOVA KBM d.d.</p>
+				</div></div></div></div>
+</figure>
+<figure data-inspector-id="inspectorid-706947173553" data-snippet="gmap">&nbsp;</figure>";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:7:"Kontakt";s:3:"url";s:8:"/kontakt";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:6:"header";s:19:"/header/kontakt.jpg";}s:12:"parsedMarkup";s:819:"<figure>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col text-left">
+
+					<h2>Mizarstvo</h2>
+
+					<h3>Jože Zupančič s.p.</h3>
+				</div></div>
+			<div class="row">
+				<div class="col-md-6 text-left">
+
+					<p>Sevno 12A
+						<br>8000 Novo mesto
+						<br>Slovenija</p>
+
+					<p>
+						<br>
+					</p>
+
+					<h3>GSM: 041 682 512</h3>
+
+					<p>
+						<br>
+					</p>
+				</div>
+				<div class="col-md-6 text-left">
+
+					<p>Davčna številka: <strong>SI61077372</strong>
+						<br>Matična številka: <strong>5361413000</strong></p>
+
+					<p>TRR: <strong>IBAN SI56 0468 3011 4408 432</strong> - NOVA KBM d.d.</p>
+				</div></div></div></div>
+</figure>
+<figure data-inspector-id="inspectorid-706947173553" data-snippet="gmap">&nbsp;</figure>";}}

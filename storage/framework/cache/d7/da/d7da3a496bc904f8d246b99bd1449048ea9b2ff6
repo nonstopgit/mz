@@ -1,0 +1,208 @@
+1604307530a:1:{s:9:"domov.htm";a:7:{s:8:"fileName";s:9:"domov.htm";s:7:"content";s:3622:"[viewBag]
+title = "Pozdravljeni"
+url = "/"
+layout = "home"
+is_hidden = 0
+navigation_hidden = 0
+meta_title = "Mizarstvo Zupančič"
+meta_description = "Dobrodošli na spletni strani Mizarstva Jože Zupančič"
+slider[0][slide_title] = "Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno"
+slider[0][slide_text] = ""
+slider[0][slide_url] = ""
+slider[0][slide_urlext] = 0
+slider[0][slide_image] = "/slider/mizarstvo-joze-zupancic-01.jpg"
+slider[1][slide_title] = "Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno"
+slider[1][slide_text] = ""
+slider[1][slide_url] = ""
+slider[1][slide_urlext] = 0
+slider[1][slide_image] = "/slider/mizarstvo-joze-zupancic-02.JPG"
+slider[2][slide_title] = "Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno"
+slider[2][slide_text] = ""
+slider[2][slide_url] = ""
+slider[2][slide_urlext] = 0
+slider[2][slide_image] = "/slider/mizarstvo-joze-zupancic-03.jpg"
+==
+<figure class="lnk">
+	<div class="container lnk">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/stavbno-pohistvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#stavbno-pohistvo" title="Stavbno pohištvo">Stavbno pohištvo</a></div></div></div>
+			<div class="col-12 col-lg-4">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/masivno-pohistvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#masivno-pohistvo" title="Masivno pohištvo">Masivno pohištvo</a></div></div></div>
+			<div class="col-12 col-lg">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/spomenisko-varstvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#spomenisko-varstvo" title="Spomeniško varstvo">Spomeniško varstvo</a></div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="offer">
+			<div class="image" data-image-src="/storage/app/media/header/o-nas.jpg" data-parallax="scroll">
+				<div class="container d-flex h-100">
+
+					<h2 class="align-self-end">Kdo smo?</h2>
+				</div></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-4 text-left">
+
+						<p>Smo inovativno slovensko podjetje z več kot četrt stoletno tradicijo izdelave stavbnega in masivnega pohištva.</p>
+
+						<p>Ukvarjamo se z izdelavo vseh vrst in oblik lesenih oken in vrat, tako za moderne zgradbe, kot tudi za spomeniško zaščitene objekte.</p>
+					</div>
+					<div class="col-12 col-lg-8 text">
+						<div class="row reference">
+							<div class="col-12">
+
+								<h3>Projekti</h3>
+							</div>
+							<div class="col-12 col-md-6">
+
+								<ul>
+									<li>Mestna hranilnica Ljubljanska</li>
+									<li>Plečnikov Peglezen</li>
+									<li>Medicinska fakulteta</li>
+									<li>Filipov dvorec</li>
+									<li>poslovna stavba Krka - Novo mesto</li>
+									<li>trgovina Palmers</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-6">
+
+								<ul>
+									<li>dijaški dom Cankarjeva - Maribor</li>
+									<li>Hotel Caravelle v centru Pariza</li>
+									<li>stavba društva upokojencev Novo mesto</li>
+									<li>vinska klet Grad Otočec</li>
+									<li>Gostilna in picerija Šentpeter</li>
+									<li>več manjših enot v mestnih središčih po Sloveniji, Avstriji in Švici</li>
+								</ul>
+							</div></div></div></div></div></div></div>
+</figure>
+
+<p>
+	<br>
+</p>";s:5:"mtime";i:1603968081;s:6:"markup";s:2693:"<figure class="lnk">
+	<div class="container lnk">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/stavbno-pohistvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#stavbno-pohistvo" title="Stavbno pohištvo">Stavbno pohištvo</a></div></div></div>
+			<div class="col-12 col-lg-4">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/masivno-pohistvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#masivno-pohistvo" title="Masivno pohištvo">Masivno pohištvo</a></div></div></div>
+			<div class="col-12 col-lg">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/spomenisko-varstvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#spomenisko-varstvo" title="Spomeniško varstvo">Spomeniško varstvo</a></div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="offer">
+			<div class="image" data-image-src="/storage/app/media/header/o-nas.jpg" data-parallax="scroll">
+				<div class="container d-flex h-100">
+
+					<h2 class="align-self-end">Kdo smo?</h2>
+				</div></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-4 text-left">
+
+						<p>Smo inovativno slovensko podjetje z več kot četrt stoletno tradicijo izdelave stavbnega in masivnega pohištva.</p>
+
+						<p>Ukvarjamo se z izdelavo vseh vrst in oblik lesenih oken in vrat, tako za moderne zgradbe, kot tudi za spomeniško zaščitene objekte.</p>
+					</div>
+					<div class="col-12 col-lg-8 text">
+						<div class="row reference">
+							<div class="col-12">
+
+								<h3>Projekti</h3>
+							</div>
+							<div class="col-12 col-md-6">
+
+								<ul>
+									<li>Mestna hranilnica Ljubljanska</li>
+									<li>Plečnikov Peglezen</li>
+									<li>Medicinska fakulteta</li>
+									<li>Filipov dvorec</li>
+									<li>poslovna stavba Krka - Novo mesto</li>
+									<li>trgovina Palmers</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-6">
+
+								<ul>
+									<li>dijaški dom Cankarjeva - Maribor</li>
+									<li>Hotel Caravelle v centru Pariza</li>
+									<li>stavba društva upokojencev Novo mesto</li>
+									<li>vinska klet Grad Otočec</li>
+									<li>Gostilna in picerija Šentpeter</li>
+									<li>več manjših enot v mestnih središčih po Sloveniji, Avstriji in Švici</li>
+								</ul>
+							</div></div></div></div></div></div></div>
+</figure>
+
+<p>
+	<br>
+</p>";s:4:"code";N;s:7:"viewBag";a:8:{s:5:"title";s:12:"Pozdravljeni";s:3:"url";s:1:"/";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:10:"meta_title";s:20:"Mizarstvo Zupančič";s:16:"meta_description";s:56:"Dobrodošli na spletni strani Mizarstva Jože Zupančič";s:6:"slider";a:3:{i:0;a:5:{s:11:"slide_title";s:56:"Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno";s:10:"slide_text";s:0:"";s:9:"slide_url";s:0:"";s:12:"slide_urlext";s:1:"0";s:11:"slide_image";s:38:"/slider/mizarstvo-joze-zupancic-01.jpg";}i:1;a:5:{s:11:"slide_title";s:56:"Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno";s:10:"slide_text";s:0:"";s:9:"slide_url";s:0:"";s:12:"slide_urlext";s:1:"0";s:11:"slide_image";s:38:"/slider/mizarstvo-joze-zupancic-02.JPG";}i:2;a:5:{s:11:"slide_title";s:56:"Slovensko kulturno dediščino<br>ohranjamo nedotaknjeno";s:10:"slide_text";s:0:"";s:9:"slide_url";s:0:"";s:12:"slide_urlext";s:1:"0";s:11:"slide_image";s:38:"/slider/mizarstvo-joze-zupancic-03.jpg";}}}s:12:"parsedMarkup";s:2693:"<figure class="lnk">
+	<div class="container lnk">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/stavbno-pohistvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#stavbno-pohistvo" title="Stavbno pohištvo">Stavbno pohištvo</a></div></div></div>
+			<div class="col-12 col-lg-4">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/masivno-pohistvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#masivno-pohistvo" title="Masivno pohištvo">Masivno pohištvo</a></div></div></div>
+			<div class="col-12 col-lg">
+				<div class="ponudba" style="background-image: url('/storage/app/media/content/spomenisko-varstvo.jpg');">
+					<div class="d-flex h-100"><a class="stretched-link align-self-end" href="/sl/ponudba#spomenisko-varstvo" title="Spomeniško varstvo">Spomeniško varstvo</a></div></div></div></div></div>
+</figure>
+<figure>
+	<div class="full">
+		<div class="offer">
+			<div class="image" data-image-src="/storage/app/media/header/o-nas.jpg" data-parallax="scroll">
+				<div class="container d-flex h-100">
+
+					<h2 class="align-self-end">Kdo smo?</h2>
+				</div></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-4 text-left">
+
+						<p>Smo inovativno slovensko podjetje z več kot četrt stoletno tradicijo izdelave stavbnega in masivnega pohištva.</p>
+
+						<p>Ukvarjamo se z izdelavo vseh vrst in oblik lesenih oken in vrat, tako za moderne zgradbe, kot tudi za spomeniško zaščitene objekte.</p>
+					</div>
+					<div class="col-12 col-lg-8 text">
+						<div class="row reference">
+							<div class="col-12">
+
+								<h3>Projekti</h3>
+							</div>
+							<div class="col-12 col-md-6">
+
+								<ul>
+									<li>Mestna hranilnica Ljubljanska</li>
+									<li>Plečnikov Peglezen</li>
+									<li>Medicinska fakulteta</li>
+									<li>Filipov dvorec</li>
+									<li>poslovna stavba Krka - Novo mesto</li>
+									<li>trgovina Palmers</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-6">
+
+								<ul>
+									<li>dijaški dom Cankarjeva - Maribor</li>
+									<li>Hotel Caravelle v centru Pariza</li>
+									<li>stavba društva upokojencev Novo mesto</li>
+									<li>vinska klet Grad Otočec</li>
+									<li>Gostilna in picerija Šentpeter</li>
+									<li>več manjših enot v mestnih središčih po Sloveniji, Avstriji in Švici</li>
+								</ul>
+							</div></div></div></div></div></div></div>
+</figure>
+
+<p>
+	<br>
+</p>";}}
