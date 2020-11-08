@@ -1,0 +1,6 @@
+id,match_type,target_type,from_scheme,from_url,to_scheme,to_url,cms_page,static_page,status_code,requirements,from_date,to_date,ignore_query_parameters,ignore_case,ignore_trailing_slash
+1,exact,path_or_url,auto,/lesena-okna/,auto,/sl/ponudba#stavbno-pohistvo,,,301,[],,,,,
+2,exact,path_or_url,auto,/vrata/,auto,/sl/ponudba#stavbno-pohistvo,,,301,[],,,,,
+3,exact,path_or_url,auto,/masivno-pohistvo/,auto,/sl/ponudba#masivno-pohistvo,,,301,[],,,,,
+4,exact,path_or_url,auto,/kontakt/,auto,/sl/kontakt,,,301,[],,,,,
+5,exact,path_or_url,auto,/o-nas/,auto,/sl,,,301,[],,,,,

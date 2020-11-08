@@ -741,3 +741,4 @@ Stack trace:
 #57 /home/vagrant/code/mizarstvo-zupancic/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
 #58 /home/vagrant/code/mizarstvo-zupancic/index.php(43): Illuminate\Foundation\Http\Kernel->handle()
 #59 {main}  
+[2020-10-29 07:12:22] development.INFO: No upgrade of Vdlp.Redirect needed. Fresh installation.  
